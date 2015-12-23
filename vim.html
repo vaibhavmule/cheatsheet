@@ -8,6 +8,7 @@
 
 <body>
   <h1>vim cheatsheet</h1>
+  <p>Note: Command starting from : is typed in Normal Mode.</p>
   <ul>
     <li><strong>h</strong> (left)</li>
     <li><strong>j</strong> (down)</li>
@@ -33,7 +34,22 @@
     <li><strong>p</strong>To put back text that has just been deleted</li>
     <li><strong>r</strong>To replace the character under the cursor</li>
     <li><strong>c</strong>To change from the cursor to where the motion takes you. e.g. "c$", "ce"</li>
-
+    <li><strong>CTRL-G</strong>To display your location in the file and the file status</li>
+    <li><strong>G</strong>To move to end of the file</li>
+    <li><strong>number G</strong>To move to that line number</li>
+    <li><strong>gg</strong>To move to first line.</li>
+    <li><strong>:/</strong>To search FORWARD for the phrase</li>
+    <li><strong>:?</strong>To search BACKWARD for the phrase</li>
+    <li><strong>n</strong>To find the next occurrence in the same direction</li>
+    <li><strong>N</strong>To search in the opposite direction</li>
+    <li><strong>CTRL-O</strong>To take you back to older positions</li>
+    <li><strong>CTRL-I</strong>To take you back to newer positions</li>
+    <li><strong>%</strong>To match (,),[,],{, or } and takes you it's match.</li>
+    <li><strong>:s/old/new</strong>To substitute new for the first old in a line</li>
+    <li><strong>:s/old/new/g</strong>To substitute new for all 'old's on a line</li>
+    <li><strong>:#,#s/old/new/g</strong>To substitute phrases between two line #'s</li>
+    <li><strong>:%s/old/new/g</strong>To substitute all occurrences in the file</li>
+    <li><strong>:%s/old/new/gc</strong>To ask for confirmation each time add 'c'</li>
   </ul>
   <p>Most of the reference  or command taken from "<i>vimtutor</i>".
   if you don't know what <i>vimtutor</i> is. Type "vimtutor" in your terminal. </p>
