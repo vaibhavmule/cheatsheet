@@ -1,4 +1,4 @@
 cheatsheet
 ==========
 
-cheatsheet is a tool for designer and programmers.
+cheatsheet is for designer and programmers.
